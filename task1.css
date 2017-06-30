@@ -1,0 +1,47 @@
+*{ /*清除所有元素的默认外边距和内边距*/
+margin:0;
+padding:0;
+}
+
+body{
+	font-size: 62.5%;
+}
+
+.container{
+	width:100%;
+	display: -webkit-box;
+	display: box;	
+}
+
+.rounded1{
+	background-color:#FFAC1C;
+	border-radius:1em;
+	-moz-box-flex:1;
+	-webkit-box-flex:1;
+	box-flex:1;
+	margin: 1em;
+	padding: 15% 0;
+}
+
+.rounded2{
+	background-color:#FFAC1C;
+	border-radius:1em;
+	-moz-box-flex:1;
+	-webkit-box-flex:1;
+	box-flex:1;
+	margin: 1em;
+	padding: 15% 0;
+}
+
+.rounded3{
+	background-color:#FFAC1C;
+	border-radius:1em;
+	-moz-box-flex:1;
+	-webkit-box-flex:1;
+	box-flex:1;
+	margin: 1em;
+	padding: 15% 0;
+}
+
+
+
