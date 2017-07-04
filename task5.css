@@ -1,0 +1,64 @@
+html{
+    margin:0;
+    padding:0;
+    font-size: 62.5%;
+}
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    line-height: 2rem;
+    padding: 0.3rem 0.2rem;
+    width:100%;
+    text-align: center;
+    background-color:#5fc0cd;
+}
+h1{
+    color: #ffffff;
+    text-align: center;
+
+}
+a.back{
+    position: absolute;
+    top: 0;
+    left:0;
+    margin:1.3rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.bottom{
+    display: flex;
+    display: -ms-flexbox;   /* 混合版本语法: IE 10 */
+    position: fixed;
+    left:0;
+    right:0;
+    bottom:0;
+    width:100%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    }
+.bottom1 {
+    flex:1;
+    -ms-flex: 1;            /* IE 10 */
+    padding: 1rem;
+    margin: 0.3rem;
+    color: #5fc0cd;
+    background-color: #ffffff;
+    border: 0.2rem  solid #5fc0cd;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.bottom2{
+    flex:1;
+    -ms-flex: 1;            /* IE 10 */
+    padding:1rem;
+    margin:0.3rem;
+    color: #ffffff;
+    background-color: #5fc0cd;
+    border:#5fc0cd  solid 0.2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
