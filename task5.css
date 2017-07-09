@@ -30,12 +30,11 @@ a.back{
 }
 main{
     position: absolute;
-    top: 3.5rem;
+    top: 3.95rem;
     bottom: 4.5rem;
     left: 0;
     right:0;
     overflow: auto;
-
 }
 .top{
     position: relative;
@@ -128,7 +127,7 @@ li{
 .bottom{
     background-color: #ffffff;
     display: flex;
-    display: -ms-flexbox;   /* 混合版本语法: IE 10 */
+    display: -ms-flexbox;   /* æ··åˆç‰ˆæœ¬è¯­æ³•: IE 10 */
     position: fixed;
     left:0;
     right:0;
