@@ -1,4 +1,4 @@
-html{
+body{
     margin:0;
     padding:0;
     font-size: 62.5%;
@@ -21,22 +21,118 @@ h1{
 }
 a.back{
     position: absolute;
-    top: 0;
-    left:0;
-    margin:1.3rem;
+    top: 1rem;
+    left:1rem;
     color: #ffffff;
     text-decoration: none;
     font-size: 2rem;
+    font-weight: bold;
+}
+main{
+    position: absolute;
+    top: 3.5rem;
+    bottom: 4.5rem;
+    left: 0;
+    right:0;
+    overflow: auto;
+
+}
+.top{
+    position: relative;
+    background-image:url(images/task5background.png);
+    -webkit-background-size:cover;
+    background-size:cover;
+    width: 100%;
+    height: 10rem;
+    color: #ffffff;
+
+}
+.top .top-img{
+    position: absolute;
+    top: 2.5rem;
+    left: 2rem;
+    width: 5rem;
+    height: 5rem;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    background-color: #ffffff;
+    background-image: url(images/task5logo1.png);
+    background-size: cover;
+}
+.top .top-text{
+    position: absolute;
+    top: 2.5rem;
+    left: 8rem;
+}
+.top .top-text .line1{
+    font-size: 1rem;
+}
+.top .top-text .line2 img{
+    height: 0.8rem;
+    margin-right: 0.3rem;
+}
+.title{
+    border-bottom:solid #e1e5e7 0.01rem;
+}
+.skill{
+    border-left: 0.2rem #5fc0cd solid;
+    margin: 1rem;
+    padding-left: 0.3rem;
+    font-weight: bold;
+}
+.form{
+    margin-top: 0;
+}
+li{
+    position: relative;
+    margin-left: -1.8rem;
+    margin-right: 0.8rem;
+    list-style: none;
+    padding:0.6rem;
+    border-bottom: solid #e1e5e7 0.01rem;
+}
+.star{
+    display: inline-block;
+    padding: 0.2rem 1.1rem;
+    background-image: url(images/task5star.png);
+    background-size: 1rem;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.star2{
+    display: inline-block;
+    padding:0.3rem;
+    background-image: url(images/task5star.png);
+    background-size: 1rem 1rem;
+    background-repeat: no-repeat;
+}
+.form-left{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    border-right: 0.02rem solid #e1e5e7;
+    padding-right: 1rem;
+    color: #a5a5a8;
+}
+.form-right{
+    margin: 0.4rem 0.4rem 0.4rem 6rem;
+}
+
+.important{
+    color: #e26163;
 }
 .bottom{
+    background-color: #ffffff;
     display: flex;
     display: -ms-flexbox;   /* 混合版本语法: IE 10 */
     position: fixed;
     left:0;
     right:0;
     bottom:0;
-    width:100%;
-    font-size: 1.5rem;
     font-weight: bold;
     }
 .bottom1 {
@@ -49,6 +145,8 @@ a.back{
     border: 0.2rem  solid #5fc0cd;
     border-radius: 0.5rem;
     text-align: center;
+    outline: none;
+    cursor: pointer;
 }
 
 .bottom2{
@@ -61,4 +159,6 @@ a.back{
     border:#5fc0cd  solid 0.2rem;
     border-radius: 0.5rem;
     text-align: center;
+    outline: none;
+    cursor: pointer;
 }
