@@ -1,0 +1,84 @@
+html{
+    padding:0;
+    margin: 0;
+    font-size: 62.5%;
+}
+
+header{
+    background-color: #5fc0cd;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    height: 3.5rem;
+}
+.tag{
+    position: absolute;
+    top: 0;                    /*设置垂直居中*/
+    bottom: 0;                  /*设置垂直居中*/
+    left: 0;                    /*设置垂直居中*/
+    right: 0;                   /*设置垂直居中*/
+    margin: auto;                /*设置垂直居中*/
+    width:50%;
+    height: 80%;
+}
+.top-left{
+    background-color: #55a8b3;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    margin:auto;
+    -webkit-border-radius:0.5rem;
+    -moz-border-radius:0.5rem;
+    border-radius:0.5rem;
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 2.8rem;
+    font-size: 1.8rem;
+    text-align: center;
+}
+.top-right{
+    background-color: #ffffff;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    -webkit-border-radius:0.5rem;
+    -moz-border-radius:0.5rem;
+    border-radius:0.5rem;
+    text-decoration: none;
+    color: #5fc0cd;
+    text-align:center;
+    line-height: 2.8rem;
+    font-size: 1.8rem;
+    transform: translateX(-0.5rem);
+}
+img{
+    float: right;
+    margin: 1.8%;
+    height:2rem;
+    width:2rem;
+}
+.form{
+    position: fixed;
+    width: 100%;
+    top: 3.5rem;
+    left:0;
+    display: inline-flex;
+    display: -ms-flexbox;   /* IE 10 */
+}
+#select_accommodation{
+    -ms-flex: 1;            /* IE 10 */
+    flex: 1;
+}
+#select_location{
+    -ms-flex: 1;            /* IE 10 */
+    flex: 1;
+}
+#select_condition{
+    -ms-flex: 1;            /* IE 10 */
+    flex: 1;
+}
+.sel{
+    text-align: center;
+    padding: 0.7rem;
+}
