@@ -1,0 +1,22 @@
+*{margin:0;padding:0;}
+body{
+	font-size: 62.5%;
+}
+.container{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+.rounded{
+	/* position: relative; */
+	float: left;
+	background-color:#FFAC1C;
+	border-radius:10%;
+	margin: 1%;
+	padding: 15.6%;
+}
+
+
+
