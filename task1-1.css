@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-size: 62.5%;
+}
+.main{
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+}
+
+.container{
+    width:100%;
+    display: -webkit-box;
+    display: flex;
+}
+
+.rounded1{
+    background-color:#FFAC1C;
+    border-radius: 10%;
+    -moz-box-flex:1;
+    -webkit-box-flex:1;
+    flex:1;
+    margin: 1%;
+    padding: 15% 0;
+}
+
+.rounded2{
+    background-color:#FFAC1C;
+    border-radius: 10%;
+    -moz-box-flex:1;
+    -webkit-box-flex:1;
+    flex:1;
+    margin: 1%;
+    padding: 15% 0;
+}
+
+.rounded3{
+    background-color:#FFAC1C;
+    border-radius: 10%;
+    -moz-box-flex:1;
+    -webkit-box-flex:1;
+    flex:1;
+    margin: 1%;
+    padding: 15% 0;
+}
+
+
