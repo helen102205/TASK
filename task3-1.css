@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size:62.5%;
+    color:#fff;
+    height:100%;
+    width:100%;
+    background-color:#68cdd5;
+}
+.back{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+.top{
+    padding-top: 5rem;
+    text-align: center;
+}
+.text{
+    text-align: center;
+    font: 0.9rem Verdana;
+    font-weight:bold;
+    color: #fff;
+    padding-top: 15%;
+    padding-right:15%;
+    padding-left:15%;
+}
+.logo1{
+    margin-left: 15%;
+    padding-top: 20%;
+    float: left;
+    text-align: center;
+    width: 20%;
+}
+.logo2{
+    text-align: center;
+    margin-right: 15%;
+    padding-top: 20%;
+    float: right;
+    width: 20%;
+}
+.footer{
+    position: absolute;
+    top: 45%;
+    bottom:5rem;
+    left:0;
+    right:0;
+}
