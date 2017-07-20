@@ -24,32 +24,30 @@ body{
     text-align: center;
 }
 .text{
-    text-align: center;
-    font: 0.9rem Verdana;
+    text-align: left;
+    font-size: 14px;
     font-weight:bold;
     color: #fff;
     padding-top: 15%;
-    padding-right:15%;
-    padding-left:15%;
 }
 .logo1{
-    margin-left: 15%;
     padding-top: 20%;
     float: left;
     text-align: center;
-    width: 20%;
+    width: 4rem;
 }
 .logo2{
     text-align: center;
-    margin-right: 15%;
     padding-top: 20%;
     float: right;
-    width: 20%;
+    width: 4rem;
 }
-.footer{
-    position: absolute;
-    top: 45%;
-    bottom:5rem;
-    left:0;
-    right:0;
+.middle{
+     position: absolute;
+     top: 25%;
+     bottom:5rem;
+     left:0;
+     right:0;
+     padding-right: 15%;
+     padding-left: 15%;
 }
