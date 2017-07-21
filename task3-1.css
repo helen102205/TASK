@@ -2,13 +2,15 @@
     margin:0;
     padding:0;
 }
-    html{
-        min-width: 320px;
-        max-width: 768px;
+    /*html{*/
+        /*min-width: 320px;*/
+        /*max-width: 768px;*/
 
-    }
+    /*}*/
 
     body{
+        min-width: 320px;
+        max-width: 768px;
         position: absolute;
         top: 0;
         left: 0;
