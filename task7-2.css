@@ -1,0 +1,108 @@
+*{
+    border:0;
+    padding:0;
+}
+html{
+    background-color: #34bede;
+}
+.header_style{
+    /* height: 10rem; */
+    font-size: 2.3rem;
+    color: #ffffff;
+    text-align: center;
+    background-color: #34bede;
+}
+.line-align{
+    line-height: 3.5rem;
+}
+.line2-align{
+    /* line-height:2.5rem; */
+}
+
+.pic_line_size{
+    margin: 0.5rem;
+    height: 2rem;
+    width: 2rem;
+}
+.pic_close_size{
+    margin-left: -1rem;
+    height: 2rem;
+    width: 2rem;
+}
+.top_style{
+    line-height: 3rem;
+    height: 3rem;
+    font-size: 1.3rem;
+    background-color: #bae9f4;
+}
+.line-char-align{
+    margin-left: -2rem;
+    color: #000;
+}
+.pic_audio_size{
+    margin-left: 1.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.angle_style{
+}
+.pic_angle_size{
+    height: 0.7rem;
+    width: 0.7rem;
+    margin-top: -2.4rem;
+    margin-left: 3rem;
+}
+.chara_style{
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: left;
+}
+.top-align{
+    margin-top: -1.5rem;
+    margin-left: -2rem;
+}
+main{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    top: 10rem;
+    left:0;
+    right:0;
+    bottom: 5rem;
+    padding: 1.5rem;
+}
+.box_text-align{
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 4rem;
+}
+.box{
+    height: 6rem;
+    border: 0.2rem solid #ffffff;
+}
+.role{
+    height: 70%;
+    width:100%;
+    background-color: #fbb435;
+    line-height: 4rem;
+}
+.number{
+    height: 30%;
+    width:100%;
+    background-color: #82af9b;
+}
+.footer_style{
+    position: absolute;
+    bottom:0;
+    right:0;
+    left:0;
+    height: 5rem;
+    background-color: #34bede;
+    text-align: center;
+}
+.btn-style{
+    padding: 0.7rem 5rem;
+    background-color: #f8b445;
+    width: 20rem;
+    font-size: 2rem;
+}
