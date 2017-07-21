@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    height:100%;
+}
+    body{
+        min-width: 320px;       /*Ã¦â€°â€¹Ã¦Å“ÂºÃ§Â«Â¯Ã¦Å“â‚¬Ã¥Â°ÂÃ¥Â®Â½Ã¥ÂºÂ¦/PCÃ§Â«Â¯Ã¦Å“â‚¬Ã¥Â°ÂÃ¥Â®Â½Ã¥ÂºÂ¦*/
+        max-width: 768px;       /*Ã¦â€°â€¹Ã¦Å“ÂºÃ§Â«Â¯Ã¦Å“â‚¬Ã¥Â¤Â§Ã¥Â®Â½Ã¥ÂºÂ¦*/
+        margin:0 auto;
+        font-size:62.5%;
+        color:#fff;
+        height: 100%;
+    }
+main{
+    position: relative;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color:#68cdd5;
+    height: 100%;
+}
+    .back{
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+    }
+    .top{
+        padding-top: 5rem;
+        text-align: center;
+    }
+    .text{
+        text-align: left;
+        font-size: 14px;
+        font-weight:bold;
+        color: #fff;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .logo1{
+        text-align: center;
+        width: 4rem;
+    }
+    .logo2{
+        text-align: center;
+        float: right;
+        width: 4rem;
+    }
+    .middle{
+         padding-top: 15%;
+         padding-right: 15%;
+         padding-left: 15%;
+    }
+    .bottom{
+        position: relative;
+        top: 0;
+        bottom: 0;
+        padding-top: 5rem;
+    }
