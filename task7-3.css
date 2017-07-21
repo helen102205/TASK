@@ -1,0 +1,113 @@
+html{
+    height:100%;
+}
+body{
+    height: 100%;
+    margin:0;
+    padding:0;
+    /*font-size: 62.5%;*/
+}
+.header_style{
+    /* position: fixed; */
+    min-height: 3.5rem;
+    line-height: 3.5rem;
+    color: #ffffff;
+    font-size: 1.8rem;
+    border-bottom:0.1rem solid #74d4eb;
+    background-color: #29bde0;
+    margin: 0;
+    text-align: center;
+}
+main{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #29bde0;
+    /* overflow-y: scroll; */
+    /* overflow-x: hidden; */
+}
+.line-align{
+    /* line-height: 2.5rem; */
+}
+.pic_line_home{
+    height: 1.5rem;
+    width: 2rem;
+    margin-left: 0.5rem;
+}
+.pic_help_size{
+    height: 2rem;
+    width: 2rem;
+    margin-right: 0.5rem;
+}
+.line1-style{
+    /*background-color: #29bde0;*/
+    text-align: center;
+    padding: 1.5rem;
+}
+.pic_victory_size{
+    height: 8rem;
+    width: 14rem;
+}
+.line2-style{
+    text-align: center;
+    /*background-color: #29bde0;*/
+    color: #ffc865;
+    font-size: 1.5rem;
+}
+.line3-style{
+    /*background-color: #29bde0;*/
+    color: #ffffff;
+    font-size: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.middle{
+    /* position: relative; */
+    /* bottom: 5rem; */
+    /* margin-left: -2rem; */
+    /* margin-right: -2rem; */
+    /* padding-left: 2rem; */
+    /* padding-right: 2rem; */
+    background-color: #ffffff;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.line-bar-style{
+    /* height: 3rem; */
+    color: #a6a6a6;
+    font-size: 1.3rem;
+    border-bottom: 0.2rem solid #dddddd;
+    padding: 0.3rem 2rem 1rem 2rem;
+}
+.bar_left_style{
+    font-size: 1.3rem;
+    text-align: left;
+    color: #000000;
+}
+.bar_right_style{
+    font-size: 5px;
+}
+.footer_style{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5rem;
+    padding: 1rem;
+    color: #ffffff;
+    /*filter:alpha(Opacity=60);-moz-opacity:0.6;opacity: 0.6;*/
+    background-color: rgba(41,189,224,0.5);
+}
+.btn1_style{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 3rem;
+    background-color: #f66f6f;
+}
+.btn2_style{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 3rem;
+    background-color: #fbb435;
+}
