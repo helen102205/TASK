@@ -1,17 +1,27 @@
+html{
+    height: 100%;
+}
 body{
-    margin:0;
+    min-width: 320px;
+    max-width: 768px;
+    margin:0 auto;
     padding:0;
     font-size: 62.5%;
+    height: 100%;
 }
 header{
     position: fixed;
+    min-width: 320px;
+    margin: 0 auto;
+    max-width: 768px;
     top:0;
+    height: 4rem;
     left:0;
     right:0;
     line-height: 2rem;
-    padding: 0.3rem 0.2rem;
-    width:100%;
-    text-align: center;
+    padding: 0.3rem 0;
+    /* width:100%; */
+    /* text-align: center; */
     background-color:#5fc0cd;
 }
 h1{
@@ -29,11 +39,12 @@ a.back{
     font-weight: bold;
 }
 main{
-    position: absolute;
-    top: 3.95rem;
+    position: relative;
+    margin-top: 9.1rem;
     bottom: 4.5rem;
-    left: 0;
-    right:0;
+    height: 100%;
+    /* left: 0; */
+    /* right:0; */
     overflow: auto;
 }
 .top{
@@ -127,8 +138,11 @@ li{
 .bottom{
     background-color: #ffffff;
     display: flex;
-    display: -ms-flexbox;   /* æ··åˆç‰ˆæœ¬è¯­æ³•: IE 10 */
+    display: -ms-flexbox;   /* Ã¦Â·Â·Ã¥ÂË†Ã§â€°Ë†Ã¦Å“Â¬Ã¨Â¯Â­Ã¦Â³â€¢: IE 10 */
     position: fixed;
+    min-width: 320px;
+    max-width: 768px;
+    margin: 0  auto;
     left:0;
     right:0;
     bottom:0;
