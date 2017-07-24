@@ -15,17 +15,13 @@ body{
     /* overflow-y: scroll; */
 }
 main{
-    /* position: relative; */
-    /* margin: 0 auto; */
-    /* top: 10rem; */
-    /* bottom: 0rem; */
+    /*!* position: relative; *!     使用pading-top代替这两项 or 会出现滚动条*/
+    /*top: 10rem;                使用pading-top代替这两项 or 会出现滚动条*!*/
     background-color: #34bede;
     height: 100%;
-    overflow-y: auto;
-    /* overflow-x: hidden; */
-    padding: 4%;
-    padding-top: 10rem;
-    padding-bottom: 5rem;
+    overflow-y: scroll;
+    padding: 10rem 4% 2rem;
+    /*padding-top:10 代替position*/
 }
 
 .header_style{
