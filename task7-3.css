@@ -13,7 +13,11 @@ body{
     max-width: 768px;
 }
 .header_style{
-    /* position: fixed; */
+    position: fixed;
+    width: 100%;
+    min-width: 320px;
+    max-width: 768px;
+    height: 3.5rem;
     min-height: 3.5rem;
     line-height: 3.5rem;
     color: #ffffff;
@@ -22,11 +26,18 @@ body{
     background-color: #29bde0;
     margin: 0;
     text-align: center;
+    z-index: 2001;
+}
+.top{
+background-color: #29bde0;
+padding-left: 2rem;
+padding-right: 2rem;
 }
 main{
-    padding-left: 2rem;
-    padding-right: 2rem;
-    background-color: #29bde0;
+    padding-top: 3.5rem;
+    padding-bottom: 5rem;
+    /* padding-left: 2rem; */
+    /* padding-right: 2rem; */
 }
 .line-align{
     /* line-height: 2.5rem; */
@@ -78,6 +89,8 @@ main{
 }
 .bar_right_style{
     font-size: 5px;
+    text-align: right;
+    padding-right: 3%;
 }
 .footer_style{
     position: fixed;

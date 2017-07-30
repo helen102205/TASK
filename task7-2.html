@@ -10,218 +10,40 @@
     <link rel="stylesheet" type="text/css" href="task7-2.css">
 </head>
 <body>
-    <header class="header_style">
-        <div class="row">
-            <div class="col-xs-2 line-align"><a href="#"><img class="pic_line_size" src="images/task7-2_line.png"/></a> </div>
-            <div class="col-xs-8 line-align">投票</div>
-            <div class="col-xs-2 line-align"><a href="#"><img class="pic_close_size" src="images/task7-2_close.png"/></a></div>
-        </div>
-        <div class="row top_style">
-            <div class="col-xs-10 line2-align "><p class="line2_p_align"> 发言讨论结束，大家请投票</p></div>
-            <div class="col-xs-2 line-char-align">
-                <audio id="music" preload src="images/task7-2.mp3" hidden controls="controls"></audio>
-                <button class="btn_style" onclick="music();">
-                    <img  class="pic_audio_size " src="images/task7-2_audio.png"/>
-                </button>
+<header class="header_style">
+    <div class="row">
+        <div class="col-xs-2 line-align"><a href="#"><img class="pic_line_size" src="images/task7-2_line.png"/></a> </div>
+        <div class="col-xs-8 line-align">投票</div>
+        <div class="col-xs-2 line-align"><a href="#"><img class="pic_close_size" src="images/task7-2_close.png"/></a></div>
+    </div>
+    <div class="row top_style">
+        <div class="col-xs-10 line2-align "><p class="line2_p_align"> 发言讨论结束，大家请投票</p></div>
+        <div class="col-xs-2 line-char-align">
+            <audio id="music" preload src="images/task7-2.mp3" hidden controls="controls"></audio>
+            <button class="btn_style" onclick="music();">
+                <img  class="pic_audio_size " src="images/task7-2_audio.png"/>
+            </button>
 
-            </div>
         </div>
-        <div class="row ">
-            <div class="col-xs-12  angle_style"><img class="pic_angle_size" src="images/task7-2_angle.png"/></div>
+    </div>
+    <div class="row ">
+        <div class="col-xs-12  angle_style"><img class="pic_angle_size" src="images/task7-2_angle.png"/></div>
 
-            <div class="col-xs-12 top-align chara_style"><a class="a_color" href="">点击得票数最多人的头像</a> </div>
-        </div>
-    </header>
-    <main>
-        <div class="row box_text-align">
-            <div class="col-xs-4">
-                <div
-                   onMouseOver="document.all.tag_1.style.visibility=''"
-                   onMouseOut="document.all.tag_1.style.visibility='hidden'"
-                   style="text-decoration:none;">
-                    <div class="box">
-                         <div class="role"><p class="content_box">水民</p></div>
-                         <div class="number"><p class="content_box">1号</p></div>
-                    </div>
-                    <div id="tag_1" style="visibility: hidden;">
-                        <div class="row row_tag_align">
-                            <a href="task1-1.html" class="col-xs-3   tag_size task7-2_1"></a>
-                            <a href="task6-1.html" class="col-xs-3   tag_size task7-2_2"></a>
-                            <a href="task5.html" class="col-xs-3   tag_size task7-2_3"></a>
-                            <a href="task7-3.html" class="col-xs-3   tag_size task7-2_4"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xs-4">
-                <div
-                     onMouseOver="document.all.tag_2.style.visibility=''"
-                     onMouseOut="document.all.tag_2.style.visibility='hidden'"
-                     style="text-decoration:none;">
-                    <div class="box">
-                        <div class="role"><p class="content_box">水民</p></div>
-                        <div class="number"><p class="content_box">2号</p></div>
-                    </div>
-                    <div id="tag_2" style="visibility: hidden;">
-                        <div class="row row_tag_align">
-                            <a href="task1-1.html" class="col-xs-3   tag_size task7-2_1"></a>
-                            <a href="task6-1.html" class="col-xs-3   tag_size task7-2_2"></a>
-                            <a href="task5.html" class="col-xs-3   tag_size task7-2_3"></a>
-                            <a href="task7-3.html" class="col-xs-3   tag_size task7-2_4"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-4">
-                <div
-                     onMouseOver="document.all.tag_3.style.visibility=''"
-                     onMouseOut="document.all.tag_3.style.visibility='hidden'"
-                     style="text-decoration:none;">
-                    <div class="box">
-                        <div class="role"><p class="content_box">水民</p></div>
-                        <div class="number"><p class="content_box">3号</p></div>
-                    </div>
-                    <div id="tag_3" style="visibility: hidden;">
-                        <div class="row row_tag_align">
-                            <a href="task1-1.html" class="col-xs-3   tag_size task7-2_1"></a>
-                            <a href="task6-1.html" class="col-xs-3   tag_size task7-2_2"></a>
-                            <a href="task5.html" class="col-xs-3   tag_size task7-2_3"></a>
-                            <a href="task7-3.html" class="col-xs-3   tag_size task7-2_4"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row box_text-align">
-            <div class="col-xs-4">
-                <div
-                     onMouseOver="document.all.tag_4.style.visibility=''"
-                     onMouseOut="document.all.tag_4.style.visibility='hidden'"
-                     style="text-decoration:none;">
-                    <div class="box">
-                        <div class="role"><p class="content_box">警察</p></div>
-                        <div class="number"><p class="content_box">4号</p></div>
-                    </div>
-                    <div id="tag_4" style="visibility: hidden;">
-                        <div class="row row_tag_align">
-                            <a href="task1-1.html" class="col-xs-3   tag_size task7-2_1"></a>
-                            <a href="task6-1.html" class="col-xs-3   tag_size task7-2_2"></a>
-                            <a href="task5.html" class="col-xs-3   tag_size task7-2_3"></a>
-                            <a href="task7-3.html" class="col-xs-3   tag_size task7-2_4"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xs-4">
-                <div
-                     onMouseOver="document.all.tag_5.style.visibility=''"
-                     onMouseOut="document.all.tag_5.style.visibility='hidden'"
-                     style="text-decoration:none;">
-                    <div class="box">
-                        <div class="role"><p class="content_box">法官</p></div>
-                        <div class="number"><p class="content_box">5号</p></div>
-                    </div>
-                    <div id="tag_5" style="visibility: hidden;">
-                        <div class="row row_tag_align">
-                            <a href="task1-1.html" class="col-xs-3   tag_size task7-2_1"></a>
-                            <a href="task6-1.html" class="col-xs-3   tag_size task7-2_2"></a>
-                            <a href="task5.html" class="col-xs-3   tag_size task7-2_3"></a>
-                            <a href="task7-3.html" class="col-xs-3   tag_size task7-2_4"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-4">
-                <div
-                     onMouseOver="document.all.tag_6.style.visibility=''"
-                     onMouseOut="document.all.tag_6.style.visibility='hidden'"
-                     style="text-decoration:none;">
-                    <div class="box">
-                        <div class="role"><p class="content_box">狙击手</p></div>
-                        <div class="number"><p class="content_box">6号</p></div>
-                    </div>
-                    <div id="tag_6" style="visibility: hidden;">
-                        <div class="row row_tag_align">
-                            <a href="task1-1.html" class="col-xs-3   tag_size task7-2_1"></a>
-                            <a href="task6-1.html" class="col-xs-3   tag_size task7-2_2"></a>
-                            <a href="task5.html" class="col-xs-3   tag_size task7-2_3"></a>
-                            <a href="task7-3.html" class="col-xs-3   tag_size task7-2_4"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>  <div class="row box_text-align">
+        <div class="col-xs-12 top-align chara_style"><a class="a_color" href="">点击得票数最多人的头像</a> </div>
+    </div>
+</header>
+<main>
+    <div class="row box_text-align">
         <div class="col-xs-4">
             <div
-                 onMouseOver="document.all.tag_7.style.visibility=''"
-                 onMouseOut="document.all.tag_7.style.visibility='hidden'"
-                 style="text-decoration:none;">
-                <div class="box">
-                    <div class="role"><p class="content_box">医生</p></div>
-                    <div class="number"><p class="content_box">7号</p></div>
-                </div>
-                <div id="tag_7" style="visibility: hidden;">
-                    <div class="row row_tag_align">
-                        <a href="task1-1.html" class="col-xs-3   tag_size task7-2_1"></a>
-                        <a href="task6-1.html" class="col-xs-3   tag_size task7-2_2"></a>
-                        <a href="task5.html" class="col-xs-3   tag_size task7-2_3"></a>
-                        <a href="task7-3.html" class="col-xs-3   tag_size task7-2_4"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-xs-4">
-            <div
-                 onMouseOver="document.all.tag_8.style.visibility=''"
-                 onMouseOut="document.all.tag_8.style.visibility='hidden'"
-                 style="text-decoration:none;">
-                <div class="box">
-                    <div class="role"><p class="content_box">杀手</p></div>
-                    <div class="number"><p class="content_box">8号</p></div>
-                </div>
-                <div id="tag_8" style="visibility: hidden;">
-                    <div class="row row_tag_align">
-                        <a href="task1-1.html" class="col-xs-3   tag_size task7-2_1"></a>
-                        <a href="task6-1.html" class="col-xs-3   tag_size task7-2_2"></a>
-                        <a href="task5.html" class="col-xs-3   tag_size task7-2_3"></a>
-                        <a href="task7-3.html" class="col-xs-3   tag_size task7-2_4"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-4">
-            <div
-                 onMouseOver="document.all.tag_9.style.visibility=''"
-                 onMouseOut="document.all.tag_9.style.visibility='hidden'"
-                 style="text-decoration:none;">
+                    onMouseOver="document.all.tag_1.style.visibility=''"
+                    onMouseOut="document.all.tag_1.style.visibility='hidden'"
+                    style="text-decoration:none;">
                 <div class="box">
                     <div class="role"><p class="content_box">水民</p></div>
-                    <div class="number"><p class="content_box">9号</p></div>
+                    <div class="number"><p class="content_box">1号</p></div>
                 </div>
-                <div id="tag_9" style="visibility: hidden;">
-                    <div class="row row_tag_align">
-                        <a href="task1-1.html" class="col-xs-3   tag_size task7-2_1"></a>
-                        <a href="task6-1.html" class="col-xs-3   tag_size task7-2_2"></a>
-                        <a href="task5.html" class="col-xs-3   tag_size task7-2_3"></a>
-                        <a href="task7-3.html" class="col-xs-3   tag_size task7-2_4"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>  <div class="row box_text-align">
-        <div class="col-xs-4">
-            <div
-                 onMouseOver="document.all.tag_10.style.visibility=''"
-                 onMouseOut="document.all.tag_10.style.visibility='hidden'"
-                 style="text-decoration:none;">
-                <div class="box">
-                    <div class="role"><p class="content_box">水民</p></div>
-                    <div class="number"><p class="content_box">10号</p></div>
-                </div>
-                <div id="tag_10" style="visibility: hidden;">
+                <div id="tag_1" style="visibility: hidden;">
                     <div class="row row_tag_align">
                         <a href="task1-1.html" class="col-xs-3   tag_size task7-2_1"></a>
                         <a href="task6-1.html" class="col-xs-3   tag_size task7-2_2"></a>
@@ -234,14 +56,14 @@
 
         <div class="col-xs-4">
             <div
-                 onMouseOver="document.all.tag_11.style.visibility=''"
-                 onMouseOut="document.all.tag_11.style.visibility='hidden'"
-                 style="text-decoration:none;">
+                    onMouseOver="document.all.tag_2.style.visibility=''"
+                    onMouseOut="document.all.tag_2.style.visibility='hidden'"
+                    style="text-decoration:none;">
                 <div class="box">
                     <div class="role"><p class="content_box">水民</p></div>
-                    <div class="number"><p class="content_box">11号</p></div>
+                    <div class="number"><p class="content_box">2号</p></div>
                 </div>
-                <div id="tag_11" style="visibility: hidden;">
+                <div id="tag_2" style="visibility: hidden;">
                     <div class="row row_tag_align">
                         <a href="task1-1.html" class="col-xs-3   tag_size task7-2_1"></a>
                         <a href="task6-1.html" class="col-xs-3   tag_size task7-2_2"></a>
@@ -253,14 +75,14 @@
         </div>
         <div class="col-xs-4">
             <div
-                 onMouseOver="document.all.tag_12.style.visibility=''"
-                 onMouseOut="document.all.tag_12.style.visibility='hidden'"
-                 style="text-decoration:none;">
+                    onMouseOver="document.all.tag_3.style.visibility=''"
+                    onMouseOut="document.all.tag_3.style.visibility='hidden'"
+                    style="text-decoration:none;">
                 <div class="box">
                     <div class="role"><p class="content_box">水民</p></div>
-                    <div class="number"><p class="content_box">12号</p></div>
+                    <div class="number"><p class="content_box">3号</p></div>
                 </div>
-                <div id="tag_12" style="visibility: hidden;">
+                <div id="tag_3" style="visibility: hidden;">
                     <div class="row row_tag_align">
                         <a href="task1-1.html" class="col-xs-3   tag_size task7-2_1"></a>
                         <a href="task6-1.html" class="col-xs-3   tag_size task7-2_2"></a>
@@ -271,16 +93,194 @@
             </div>
         </div>
     </div>
-
-
-    </main>
-    <footer class="footer_style">
-        <div class="row footer_row_style">
-            <a href="task7-3.html">
-            <div class="col-xs-12 btn btn-style">投死</div>
-            </a>
+    <div class="row box_text-align">
+        <div class="col-xs-4">
+            <div
+                    onMouseOver="document.all.tag_4.style.visibility=''"
+                    onMouseOut="document.all.tag_4.style.visibility='hidden'"
+                    style="text-decoration:none;">
+                <div class="box">
+                    <div class="role"><p class="content_box">警察</p></div>
+                    <div class="number"><p class="content_box">4号</p></div>
+                </div>
+                <div id="tag_4" style="visibility: hidden;">
+                    <div class="row row_tag_align">
+                        <a href="task1-1.html" class="col-xs-3   tag_size task7-2_1"></a>
+                        <a href="task6-1.html" class="col-xs-3   tag_size task7-2_2"></a>
+                        <a href="task5.html" class="col-xs-3   tag_size task7-2_3"></a>
+                        <a href="task7-3.html" class="col-xs-3   tag_size task7-2_4"></a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </footer>
+
+        <div class="col-xs-4">
+            <div
+                    onMouseOver="document.all.tag_5.style.visibility=''"
+                    onMouseOut="document.all.tag_5.style.visibility='hidden'"
+                    style="text-decoration:none;">
+                <div class="box">
+                    <div class="role"><p class="content_box">法官</p></div>
+                    <div class="number"><p class="content_box">5号</p></div>
+                </div>
+                <div id="tag_5" style="visibility: hidden;">
+                    <div class="row row_tag_align">
+                        <a href="task1-1.html" class="col-xs-3   tag_size task7-2_1"></a>
+                        <a href="task6-1.html" class="col-xs-3   tag_size task7-2_2"></a>
+                        <a href="task5.html" class="col-xs-3   tag_size task7-2_3"></a>
+                        <a href="task7-3.html" class="col-xs-3   tag_size task7-2_4"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-4">
+            <div
+                    onMouseOver="document.all.tag_6.style.visibility=''"
+                    onMouseOut="document.all.tag_6.style.visibility='hidden'"
+                    style="text-decoration:none;">
+                <div class="box">
+                    <div class="role"><p class="content_box">狙击手</p></div>
+                    <div class="number"><p class="content_box">6号</p></div>
+                </div>
+                <div id="tag_6" style="visibility: hidden;">
+                    <div class="row row_tag_align">
+                        <a href="task1-1.html" class="col-xs-3   tag_size task7-2_1"></a>
+                        <a href="task6-1.html" class="col-xs-3   tag_size task7-2_2"></a>
+                        <a href="task5.html" class="col-xs-3   tag_size task7-2_3"></a>
+                        <a href="task7-3.html" class="col-xs-3   tag_size task7-2_4"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  <div class="row box_text-align">
+    <div class="col-xs-4">
+        <div
+                onMouseOver="document.all.tag_7.style.visibility=''"
+                onMouseOut="document.all.tag_7.style.visibility='hidden'"
+                style="text-decoration:none;">
+            <div class="box">
+                <div class="role"><p class="content_box">医生</p></div>
+                <div class="number"><p class="content_box">7号</p></div>
+            </div>
+            <div id="tag_7" style="visibility: hidden;">
+                <div class="row row_tag_align">
+                    <a href="task1-1.html" class="col-xs-3   tag_size task7-2_1"></a>
+                    <a href="task6-1.html" class="col-xs-3   tag_size task7-2_2"></a>
+                    <a href="task5.html" class="col-xs-3   tag_size task7-2_3"></a>
+                    <a href="task7-3.html" class="col-xs-3   tag_size task7-2_4"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xs-4">
+        <div
+                onMouseOver="document.all.tag_8.style.visibility=''"
+                onMouseOut="document.all.tag_8.style.visibility='hidden'"
+                style="text-decoration:none;">
+            <div class="box">
+                <div class="role"><p class="content_box">杀手</p></div>
+                <div class="number"><p class="content_box">8号</p></div>
+            </div>
+            <div id="tag_8" style="visibility: hidden;">
+                <div class="row row_tag_align">
+                    <a href="task1-1.html" class="col-xs-3   tag_size task7-2_1"></a>
+                    <a href="task6-1.html" class="col-xs-3   tag_size task7-2_2"></a>
+                    <a href="task5.html" class="col-xs-3   tag_size task7-2_3"></a>
+                    <a href="task7-3.html" class="col-xs-3   tag_size task7-2_4"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-4">
+        <div
+                onMouseOver="document.all.tag_9.style.visibility=''"
+                onMouseOut="document.all.tag_9.style.visibility='hidden'"
+                style="text-decoration:none;">
+            <div class="box">
+                <div class="role"><p class="content_box">水民</p></div>
+                <div class="number"><p class="content_box">9号</p></div>
+            </div>
+            <div id="tag_9" style="visibility: hidden;">
+                <div class="row row_tag_align">
+                    <a href="task1-1.html" class="col-xs-3   tag_size task7-2_1"></a>
+                    <a href="task6-1.html" class="col-xs-3   tag_size task7-2_2"></a>
+                    <a href="task5.html" class="col-xs-3   tag_size task7-2_3"></a>
+                    <a href="task7-3.html" class="col-xs-3   tag_size task7-2_4"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  <div class="row box_text-align">
+    <div class="col-xs-4">
+        <div
+                onMouseOver="document.all.tag_10.style.visibility=''"
+                onMouseOut="document.all.tag_10.style.visibility='hidden'"
+                style="text-decoration:none;">
+            <div class="box">
+                <div class="role"><p class="content_box">水民</p></div>
+                <div class="number"><p class="content_box">10号</p></div>
+            </div>
+            <div id="tag_10" style="visibility: hidden;">
+                <div class="row row_tag_align">
+                    <a href="task1-1.html" class="col-xs-3   tag_size task7-2_1"></a>
+                    <a href="task6-1.html" class="col-xs-3   tag_size task7-2_2"></a>
+                    <a href="task5.html" class="col-xs-3   tag_size task7-2_3"></a>
+                    <a href="task7-3.html" class="col-xs-3   tag_size task7-2_4"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xs-4">
+        <div
+                onMouseOver="document.all.tag_11.style.visibility=''"
+                onMouseOut="document.all.tag_11.style.visibility='hidden'"
+                style="text-decoration:none;">
+            <div class="box">
+                <div class="role"><p class="content_box">水民</p></div>
+                <div class="number"><p class="content_box">11号</p></div>
+            </div>
+            <div id="tag_11" style="visibility: hidden;">
+                <div class="row row_tag_align">
+                    <a href="task1-1.html" class="col-xs-3   tag_size task7-2_1"></a>
+                    <a href="task6-1.html" class="col-xs-3   tag_size task7-2_2"></a>
+                    <a href="task5.html" class="col-xs-3   tag_size task7-2_3"></a>
+                    <a href="task7-3.html" class="col-xs-3   tag_size task7-2_4"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-4">
+        <div
+                onMouseOver="document.all.tag_12.style.visibility=''"
+                onMouseOut="document.all.tag_12.style.visibility='hidden'"
+                style="text-decoration:none;">
+            <div class="box">
+                <div class="role"><p class="content_box">水民</p></div>
+                <div class="number"><p class="content_box">12号</p></div>
+            </div>
+            <div id="tag_12" style="visibility: hidden;">
+                <div class="row row_tag_align">
+                    <a href="task1-1.html" class="col-xs-3   tag_size task7-2_1"></a>
+                    <a href="task6-1.html" class="col-xs-3   tag_size task7-2_2"></a>
+                    <a href="task5.html" class="col-xs-3   tag_size task7-2_3"></a>
+                    <a href="task7-3.html" class="col-xs-3   tag_size task7-2_4"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</main>
+<footer class="footer_style">
+    <div class="row footer_row_style">
+        <a href="task7-3.html">
+            <div class="col-xs-12 btn btn-style">投死</div>
+        </a>
+    </div>
+</footer>
 </body>
 </html>
 <script>
