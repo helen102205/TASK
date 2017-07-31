@@ -55,10 +55,20 @@ main{
     /* font-size: 2rem; */
     color: #ffffff;
     background-color: #69d1e9;
-    /* text-align: center; */
-    padding-top: 1.2rem;
-    padding-bottom: 1.2rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
+.line-blue a{
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 3rem;
+}
+.line-blue a:hover{
+    color: black;
+}
+
 .line-grey{
     font-size: 1rem;
     color: #9a9a9a;
@@ -79,8 +89,8 @@ main{
     background-color: #ffffff;
 }
 .blue-margin{
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 4vw;
+    margin-right: 4vw;
 }
 .top-align{
     position: absolute;
@@ -125,6 +135,6 @@ main{
 .pic-next-size{
     width: 1.3rem;
     height: 2.5rem;
-    margin-right: 0.3rem;
-    margin-top: 1.5rem;
+    margin-right: 0.7rem;
+    margin-top: 2rem;
 }
