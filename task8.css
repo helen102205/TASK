@@ -1,0 +1,95 @@
+body{
+    font-size:100%;
+}
+.navbar-line1-style{
+    background-color: #fff;
+    height: 3rem;
+}
+.navbar-line2-style{
+    background-color: #29b078;
+    /* min-height: 9rem; */
+}
+.navebar-line2-style{
+    position: absolute;
+     margin-top: 3rem;
+}
+.header-logo{
+    display: inline-block;
+    float: right;
+    margin: 0.3rem 0;
+}
+.header-p{
+    display: inline-block;
+    float: left;
+    margin: 0.8rem 0;
+}
+.navbar_brand_img{
+    height: 5rem;
+    width: 8rem;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #29b078;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.a_img_margin{
+    margin-right: 0.2rem;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+nav ul li a{
+    font-size: 2rem;
+}
+footer{
+    /*position: fixed;*/
+    /*bottom:0;*/
+    /*left:0;*/
+    /*right:0;*/
+    margin-top: 10rem;
+    background-color: #26a26f;
+    color: #ffffff;
+}
+.QR_code{
+    float: right;
+}
+.footer_p{
+    float: left;
+}
+.footer_bottom{
+    /* height: 1rem; */
+    color: #ffffff;
+    border-top:1px solid #32c086;
+    text-align: center;
+    padding: 1rem 0;
+}
+.img_qr_code{
+    height: 8.9rem;
+    width: 8.9rem;
+    border: solid 6px;
+}
+.footer_row1{
+    padding: 2rem 0;
+}
+.footer_bottom_p{
+    padding:0 2rem;
+    margin: 0;
+}
+.footer_p_font_size{
+    font-size: 1.8rem;
+}
+.footer_small_font_size{
+    font-size: 1.5rem;
+}
+footer p a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 320px){
+    .QR_code{
+        float: left;
+    }
+
+}
