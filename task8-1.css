@@ -233,6 +233,7 @@ footer p a{
 
 .company-margin-right{
     margin-right: 5px;
+    margin-bottom: 5px;
 }
 
 .company_size{
@@ -248,14 +249,25 @@ footer p a{
 }
 .link_list{
     display: inline-block;
-
 }
-
-.link_list:hover{
+.grey-rounded{
+    background-color: red;
+    /*background-position: center;*/
+    border-radius: 50%;
+    height: 1rem;
+    /*display: inline-block;*/
+}
+.link-hover{
+    padding-left: 18px;
+    margin-right: 25px;
+}
+.link-hover:hover{
     border-bottom: solid 2px #29b078;
     text-decoration: none;
 }
-
+a:hover{
+    text-decoration: none;
+}
 .link_font_size{
     font-size: 1.5rem;
 }
@@ -264,6 +276,11 @@ footer p a{
 }
 .link2_margin{
     margin-top: 2rem;
+}
+.a_border:hover{
+    display: inline-block;
+    color: #ffffff;
+    border-bottom: solid 2px #ffffff;
 }
 @media screen and (max-width: 992px){
    .content_col_border {
