@@ -287,7 +287,9 @@ a:hover{
 .link2_margin{
     margin-top: 2rem;
 }
-
+.text-color-black{
+    color: #000;
+}
 @media screen and (max-width: 992px){
    .content_col_border {
         text-align: center;
