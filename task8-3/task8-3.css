@@ -1,6 +1,6 @@
 body{
+    background-color: #fafafa;
     font-size:100%;
-    /*overflow-x: hidden;*/
 }
 .navbar-line1-style{
     background-color: #fff;
@@ -8,7 +8,6 @@ body{
 }
 .navbar-line2-style{
     background-color: #29b078;
-    /* min-height: 9rem; */
 }
 .navebar-line2-style{
     position: absolute;
@@ -60,15 +59,7 @@ nav ul li a{
     font-size: 2rem;
 }
 
-footer{
-    /*position: fixed;*/
-    /*bottom:0;*/
-    /*left:0;*/
-    /*right:0;*/
-    /* margin-top: 2rem; */
-    background-color: #26a26f;
-    color: #ffffff;
-}
+
 .QR_code{
     float: right;
 }
@@ -76,7 +67,6 @@ footer{
     float: left;
 }
 .footer_bottom{
-    /* height: 1rem; */
     color: #ffffff;
     border-top:1px solid #32c086;
     text-align: center;
@@ -126,9 +116,12 @@ footer p a{
 
 
 
-.background-grey{
-    background-color: #fafafa;
+.main_content{
+    position: relative;
+    bottom:0;
 }
+
+
 .font-green{
     color: #29b078;
 }
@@ -169,6 +162,7 @@ a{
     border:solid 0.1rem #d0d6d9;
     border-radius: 3px;
     box-shadow: 0 0 3px;
+    height: 33.6rem;
 }
 .row-margin{
     margin-left:0;
@@ -269,14 +263,62 @@ a{
     flex:1;
 }
 .form-margin-right{
-    margin-right: 2rem;
+    margin-right: 5px;
     margin-bottom: 2rem;
 }
 .form-width{
-    width: 31.856%;
+    width: 33%;
 }
 .space{
-    background-color: #fafafa;
-    height: 15rem;
+    height: 180rem;
     width:100%;
+}
+.form-show-background{
+    background-color: grey;
+}
+.form-font-white-size{
+    color: #ffffff;
+    font-size: 15px;
+}
+.form-p-padding{
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.hover-hide{
+    position: absolute;
+}
+.hover-show{
+    position: absolute;
+    opacity: 0;
+}
+.container_form:hover .hover-show{
+    opacity: 0.8;
+}
+.container_form:hover .hover-hide{
+    opacity: 0.5;
+}
+.position_line_head{
+    position: relative;
+    top: 33.6rem;
+}
+.position_line2_head{
+    position: relative;
+    top: 67.2rem;
+}
+.position_line3_head{
+     position: relative;
+     top: 100.4rem;
+ }
+.position_line4_head{
+    position: relative;
+    top: 134rem;
+}
+footer{
+    bottom: 0;
+    left:0;
+    right:0;
+    background-color: #26a26f;
+    color: #ffffff;
 }
